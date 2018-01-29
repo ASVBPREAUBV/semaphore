@@ -14,16 +14,15 @@ public class Semaphore {
         //System.out.println("class name is: " + this.toString());
     }
 
-    public synchronized void my_wait() {
-        System.out.println(name + "_my_wait");
+    public synchronized void signal() {
+        System.out.println(name + "_signal");
         counter++;
         notify();
     }
 
 
-    public synchronized void signal() {
-        System.out.println(name + "_signal");
-
+    public synchronized void my_wait() {
+        System.out.println(name + "_my_wait");
         try {
             while (counter == 0) {
                 wait();

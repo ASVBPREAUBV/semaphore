@@ -2,8 +2,12 @@
 
 [Aufgabe](http://www.mobile.ifi.lmu.de/wp-content/uploads/lehrveranstaltungen/bs-ws1718/blatt12.pdf)
 
-## Develop
 
+## TODO
+
+* !important" Add Threading
+    
+## Develop
 
 
 JAVA 1.8
