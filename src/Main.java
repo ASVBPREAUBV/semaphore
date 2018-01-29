@@ -5,5 +5,12 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Main main called");
+
+        Semaphore Drehtüre = new Semaphore(1);
+
+        Drehtüre.log();
+
+
     }
 }
+
